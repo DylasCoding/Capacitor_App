@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@capacitor/android": "^7.4.3",
+    "@capacitor/camera": "^7.0.2",
     "@capacitor/cli": "^7.4.3",
     "@capacitor/core": "^7.4.3",
+    "@capacitor/filesystem": "^7.1.4",
+    "@capacitor/share": "^7.0.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
