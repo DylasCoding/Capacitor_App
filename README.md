@@ -8,4 +8,5 @@
     - Lưu và chia sẻ meme.
 - **Mở rộng:**
     - Thêm bộ lọc ảnh.
-    - Khung hình preset cho mạng xã hội.
+    - Khung hình preset cho mạng xã hội, khung tròn thì bo ảnh tròn, khung vuông thì bo ảnh vuông.
+    - Thêm sticker, biểu tượng cảm xúc.
