@@ -18,7 +18,7 @@ Create memes from gallery images, add text, and share.
 - Preset frames for social networks.
 - Edit text position using x and y coordinates.
 
-**Build and Run:**  
+**Build and Run:**   
 ```bash
 npm install
 npm run build
