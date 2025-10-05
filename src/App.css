@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+header {
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  background: #4a90e2;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+canvas {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.controls input,
+.controls select,
+.controls button {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.controls input:focus,
+.controls select:focus,
+.controls button:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.controls button {
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #357abd;
+}
+
+.filters, .frames {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.filters button, .frames button {
+  flex: 1 1 45%;
+  min-width: 120px;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.filters button:hover, .frames button:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .controls {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .controls input {
+    flex: 2;
+  }
+
+  .controls button {
+    flex: 1;
+  }
+}
