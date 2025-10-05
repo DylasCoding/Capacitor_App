@@ -20,10 +20,10 @@ Create memes from gallery images, add text, and share.
 
 **Build and Run:**  
 ```bash
-        npm install
-        npm run build
-        npx cap sync
-        npx cap open android
+npm install
+npm run build
+npx cap sync
+npx cap open android
 ````
 **Demo Video:**  
 [Watch here](https://drive.google.com/file/d/19W-cfd6xjYM_ZM81ekHjhmfa4jjdlxnI/view?usp=sharing)
